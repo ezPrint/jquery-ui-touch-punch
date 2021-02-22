@@ -1,5 +1,5 @@
 {
-  "name": "ezprint/jqueryui-touch-punch",
+  "name": "ezPrint/jquery-ui-touch-punch",
   "version": "0.2.4",
   "main": "jquery.ui.touch-punch.min.js",
   "ignore": [],
