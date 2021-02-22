@@ -1,5 +1,5 @@
 /*!
- * jQuery UI Touch Punch 0.2.3
+ * jQuery UI Touch Punch 0.2.4
  *
  * Copyright 2011–2014, Dave Furfero
  * Dual licensed under the MIT or GPL Version 2 licenses.
@@ -34,8 +34,6 @@
     if (event.originalEvent.touches.length > 1) {
       return;
     }
-
-    event.preventDefault();
 
     var touch = event.originalEvent.changedTouches[0],
         simulatedEvent = document.createEvent('MouseEvents');
